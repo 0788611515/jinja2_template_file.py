@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 -- Last update: Feb 11, 2022 at 08:30 AM
 --
 
+
 DROP TABLE IF EXISTS `jinja2`;
 CREATE TABLE IF NOT EXISTS `jinja2` (
   `USERID` int(11) NOT NULL AUTO_INCREMENT,
