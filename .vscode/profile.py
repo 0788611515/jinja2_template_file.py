@@ -7,5 +7,6 @@ jinja_var = {
     'title': 'Question 1'
 }
 
+
 template = jinja_env.get_template('content.html')
 print(template.render(jinja_var))
