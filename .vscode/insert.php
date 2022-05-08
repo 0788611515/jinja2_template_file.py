@@ -23,6 +23,7 @@ if (!empty($USERID); !empty($NAME); !empty($EMAIL);
         $INSERT = "INSERT into jinja2 (UserID, Name, Email, LoginID, Password, UserType) values(?, ?, ?, ?, ?, ?)";
 
         //prepare statement
+        
         $stmt = $conn->prepare($SELECT);
         $stmt ->bind_param("s", $email);
         $stmt->execute();
